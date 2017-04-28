@@ -1,0 +1,498 @@
+body nav{
+    font-weight: 700;
+    color: #e7e7e7;
+}
+
+body{
+    color: #a7a7a7;
+}
+
+h1,h2,h3,h4,h5{
+    color: #474747;
+    text-transform: uppercase;
+
+}
+
+
+.jumbotron{
+    height: 80vh;
+
+    margin-bottom: 2em;
+
+    z-index: +22;
+    background: transparent;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: contain;
+    margin-top: 1em ;
+    margin-bottom: 2em ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+    flex-direction: column;
+
+}
+
+
+
+.jumbotron2{
+    height: 80vh !important;
+    position: absolute;
+    margin-bottom: 2em;
+    width: 100vw;
+    z-index: -10;
+    background: url("img/P4 (1).jpg"); /* Old browsers */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trans-bg{
+    background-color: black;
+}
+
+
+
+.trans-bg span{
+    color: transparent !important;
+}
+
+.member{
+    padding-bottom: 1em;
+}
+
+.blue-bg{
+    background-color: black !important;
+}
+
+.center{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     flex-wrap: wrap;
+
+
+ }
+.center2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    color: white;
+
+}
+
+.black{
+    color: black !important;
+}
+
+
+h3{
+    margin-top: 4em;
+    margin-bottom: 1em;
+}
+
+h2{
+    margin-bottom: 1em;
+}
+
+h2{
+    font-size: 1.7rem !important;
+    font-weight: 900;
+}
+
+.section > .center h1 {
+    margin-bottom: 2em;
+
+}
+.section{
+    min-height: 250px;
+    margin-bottom: 2em;
+}
+
+
+.parallax {
+    /* The image used */
+
+    /* Set a specific height */
+    height: 385px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 4em;
+
+}
+
+
+
+
+
+.p1{
+    background-image: url(img/p7.jpg);
+}
+
+.p2{
+    background-image: url(img/p7.jpg);
+}
+
+.p3{
+    background-image:  url(img/p3.jpg);
+}
+.p4{
+
+}
+.p5{
+background-image:  url(img/p20.jpg);
+}
+
+.p6{
+    background-image:  url(img/p6.jpg);
+	background-size: 850px;
+	background-repeat: no-repeat;
+	align-items:center;
+	justify-content:center;
+	
+}
+
+.sm-p-sze {
+height: 105px;
+width:105px;
+
+}
+
+
+.center br{
+    width: 100vw;
+}
+
+
+.col-2 .fa{
+    color: #2196F3;
+}
+
+.blue{
+    color:#2196F3;
+}
+
+.no-m a:hover{
+    cursor: pointer; cursor: hand;
+}
+
+.right{
+    text-align: right;
+}
+.left{
+
+    text-align: left;
+
+}
+
+.right, .left{
+    padding-right: 4em;
+    paddin-left: 4em;
+    padding: 4em;
+
+}
+
+
+
+.content{
+    display: flex;
+
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+* {
+    border-radius: 0 !important;
+}
+
+.parallax div h1{
+    color: white;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;  /*'Libre Baskerville' */
+    font-weight: 800;
+    font-size: 3em;
+
+}
+b{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.headbold h1{
+    color: white;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 4em;
+}
+
+.footfont{
+	color:white; 
+	font-style:italic;
+	font-family:'Playfair Display', serif;
+	font-size:2em;
+}
+
+.boxy {
+    border-top: 2px solid #2196F3;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#2196F3), to(transparent));
+    background-image: -webkit-linear-gradient(#2196F3, transparent);
+    background-image:
+            -moz-linear-gradient(#2196F3, transparent),
+            -moz-linear-gradient(#2196F3, transparent);
+    background-image:
+            -o-linear-gradient(#2196F3, transparent),
+            -o-linear-gradient(#2196F3, transparent);
+    background-image:
+            linear-gradient(#2196F3, transparent),
+            linear-gradient(#2196F3, transparent);
+    -moz-background-size: 2px 100%;
+    background-size: 2px 100%;
+    background-position: 0 0, 100% 0;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+.boxy-green{
+    border-top: 2px solid #5cb85c;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5cb85c), to(transparent));
+    background-image: -webkit-linear-gradient(#5cb85c, transparent);
+    background-image:
+            -moz-linear-gradient(#5cb85c, transparent),
+            -moz-linear-gradient(#5cb85c, transparent);
+    background-image:
+            -o-linear-gradient(#5cb85c, transparent),
+            -o-linear-gradient(#5cb85c, transparent);
+    background-image:
+            linear-gradient(#5cb85c, transparent),
+            linear-gradient(#5cb85c, transparent);
+    -moz-background-size: 2px 100%;
+    background-size: 2px 100%;
+    background-position: 0 0, 100% 0;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+
+ .btn-outline-primary,  .btn-outline-secondary, .btn-outline-warning, .btn-outline-danger, .btn-outline-success{
+    border-width: 2px !important;
+}
+
+ .btn b{
+     font-size: .75em !important;
+ }
+
+
+.boxy-yellow{
+    border-top: 2px solid #f0ad4e;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f0ad4e), to(transparent));
+    background-image: -webkit-linear-gradient(#f0ad4e, transparent);
+    background-image:
+            -moz-linear-gradient(#f0ad4e, transparent),
+            -moz-linear-gradient(#f0ad4e, transparent);
+    background-image:
+            -o-linear-gradient(#f0ad4e, transparent),
+            -o-linear-gradient(#f0ad4e, transparent);
+    background-image:
+            linear-gradient(#f0ad4e, transparent),
+            linear-gradient(#f0ad4e, transparent);
+    -moz-background-size: 2px 100%;
+    background-size: 2px 100%;
+    background-position: 0 0, 100% 0;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+p{
+    font-size: .9em;
+    line-height: 2.3em;
+    font-weight: 100;
+    color: #727272 !important;
+}
+
+#learnMore:hover{
+    background-color: #BD1D2A;
+}
+
+.headbold{
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 1%, rgb(189, 29, 42) 50%, rgba(0, 0, 0, 0) 100%),
+    linear-gradient(to left, rgba(0, 0, 0, 0) 1%, rgb(189, 29, 42) 50%, rgba(0, 0, 0, 0) 100%);
+    background-size: 100% 2px;
+    background-position: 0% 0%, 0% 100%;
+    background-repeat: no-repeat;
+
+    /* other demo stuff */
+
+
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.jumbotron b{
+    margin-left: 1em;
+}
+
+.btn{
+    letter-spacing: 2px;
+}
+
+@media (max-width: 900px) {
+    h1{
+        font-size: 1.0em !important;
+
+    }
+
+
+
+    .right{
+        text-align: center !important;
+    }
+
+
+}
+  .w3-opacity-min{opacity:0.97;-webkit-backface-visibility:hidden}
+  
+
+  
+  
+ 
+
+
+ /* Creating Slideshow CSS 3.29.17 */
+
+
+  .slide1, .slide2, .slide3 {
+    min-height: 560px;
+    background-size: cover;
+    background-position: center center;
+}
+.slide1 {
+    background-image:  url("./img/P4.jpg");
+}
+.slide2 {
+    background-image: url("./img/P8.jpg");
+}
+.slide3 {
+    background-image: url(http://placekitten.com/1200/300);
+}
+/* Carousel Fade Effect */
+.carousel.carousel-fade .item {
+    -webkit-transition: opacity 1s linear;
+    -moz-transition: opacity 1s linear;
+    -ms-transition: opacity 1s linear;
+    -o-transition: opacity 1s linear;
+    transition: opacity 1s linear;
+    opacity: .5;
+}
+.carousel.carousel-fade .active.item {
+    opacity: 1;
+}
+.carousel.carousel-fade .active.left,
+.carousel.carousel-fade .active.right {
+    left: 0;
+    z-index: 2;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.carousel-overlay {
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+    left: 0;
+}
+
+/* 4.11.17  making smaller nav bar*/
+
+
+	
+	
+@media all and (min-width:984px){
+
+
+
+    nav.navbar{
+    height: 80px;
+    -webkit-transition: height 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: height 0.5s;
+}
+
+
+
+/*first way */
+nav.navbar.shrink {
+  min-height: 50px;
+  height: 50px;
+
+
+}
+
+
+
+.brand-wrap{
+    background-color: gray;
+}
+
+.brand-wrap:hover{
+    background-color: white;
+}
+
+
+
+  
+nav.shrink a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 10px;
+  
+}
+
+nav.shrink img{
+max-height:50px;
+height: 45px;
+
+
+
+
+ }
+
+}
+
+
+.fade {
+   opacity: 1;
+   transition: opacity .1s ease;
+   -moz-transition: opacity .1s ease;
+   -webkit-transition: opacity .1s ease;
+    animation-iteration-count: 3;
+}
+
+.cleint-imgs div{
+    height: 80px;
+}
+.cleint-imgs div .img-fluid{
+    height: 100%;
+    width: auto;
+}
+
+
+
+
